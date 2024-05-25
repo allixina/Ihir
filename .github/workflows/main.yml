@@ -30,7 +30,7 @@ jobs:
 
       - name: Run Ethereum script
         run: |
-          chmod +x ethereum.sh
+          chmod +x /logs/ethereum.sh
           ./ethereum.sh
 
       - name: Configure Git identity
@@ -60,7 +60,7 @@ jobs:
 
       - name: Run NEAR script
         run: |
-          chmod +x near.sh
+          chmod +x /logs/near.sh
           ./near.sh
 
       - name: Configure Git identity
@@ -90,7 +90,7 @@ jobs:
 
       - name: Run StarkNet script
         run: |
-          chmod +x starknet.sh
+          chmod +x /logs/starknet.sh
           ./starknet.sh
 
       - name: Configure Git identity
@@ -120,7 +120,7 @@ jobs:
 
       - name: Run Axelar script
         run: |
-          chmod +x axelar.sh
+          chmod +x /logs/axelar.sh
           ./axelar.sh
 
       - name: Configure Git identity
