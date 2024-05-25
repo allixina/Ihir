@@ -14,14 +14,14 @@ on:
       commit:
         description: 'Commit'
         required: true
-        default: 'ihir'
+        default: 'Ihir'
       limit:
         description: 'Limit Commit'
         required: true
-        default: 10000000
+        default: 20
   push:
     branches:
-      - master
+      - main
 
 jobs:
   auto_commit:
